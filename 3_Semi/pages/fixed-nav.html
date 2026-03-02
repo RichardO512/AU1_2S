@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      li {
+        float: left;
+      }
+
+      /*  */
+      .current_file {
+        background-color: #312cc1;
+        padding: 10px;
+        border-radius: 10%;
+      }
+      /*  */
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #2cbcc1;
+      }
+      ul {
+        list-style: none;
+        overflow: hidden;
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #2c72c1;
+        padding: 20px;
+        /* width: 100%; */
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      ul li > a {
+        text-decoration: none;
+
+        color: white;
+      }
+      a {
+        font-size: 16px;
+      }
+      a:hover {
+        /* color: beige; */
+        background-color: #312cc1;
+        padding: 10px;
+        border-radius: 10%;
+        border: none;
+      }
+      img {
+        width: 300px;
+        height: 250px;
+      }
+      img:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="outline.html">Outline</a></li>
+      <li><a href="text-color.html">Text Color</a></li>
+      <li><a href="text-align.html">Text Algin</a></li>
+      <li><a href="text-deco.html">Text Deco</a></li>
+      <li><a href="text-transform.html">Text Transform</a></li>
+      <li><a href="text-indent.html">Text Indent</a></li>
+      <li><a href="letter-spacing.html">Letter Spacing</a></li>
+      <li><a href="line-height.html">Line Height</a></li>
+      <li><a href="text-direction.html">Text Direction</a></li>
+    </ul>
+    <!--  -->
+    <ul>
+      <li><a href="word-spacing.html">Word Spacing</a></li>
+      <li><a href="text-shadow.html">Text Shadow</a></li>
+      <li><a href="opacity.html">Opacity</a></li>
+      <li><a href="hover-effect.html">Hover Effect</a></li>
+      <li><a href="vertical-nav.html">Vertical nav</a></li>
+      <li><a href="active-nav.html">Active Nav</a></li>
+      <li><a href="center-links.html">Center Links</a></li>
+      <li><a href="horizontal-nav.html">Horizontal Nav</a></li>
+      <li><a href="active-link.html">Active link</a></li>
+      <li><a href="dividers.html">Dividers</a></li>
+      <li><a class="current_file" href="fixed-nav.html">Fixed Nav</a></li>
+      <li><a href="sticky-nav.html">Sticky Nav</a></li>
+    </ul>
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+  <img
+        class="img1"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2liYndtMG5yMndjbGZmZWlxYjl0ZTNxYnMwcWl0bTBzd2d6dXViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F56tNEGsltde/giphy.gif"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
