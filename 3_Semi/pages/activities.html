@@ -38,7 +38,6 @@
         border-radius: 10%;
       }
 
-      /* --- HEADER & ENDLESS RUNNERS --- */
       .header-container {
         text-align: center;
         margin-top: 100px;
@@ -53,7 +52,6 @@
         white-space: nowrap;
       }
 
-      /* --- CSS GRID (No JS) --- */
       .project-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -99,9 +97,8 @@
         font-weight: bold;
       }
 
-      /* --- PURE CSS MODAL (Using :target) --- */
       .modal-overlay {
-        display: none; /* Hidden by default */
+        display: none; /* Hide default */
         position: fixed;
         top: 0;
         left: 0;
@@ -112,7 +109,7 @@
         justify-content: center;
         align-items: center;
       }
-      /* When the URL ends in #modal-view, show this */
+
       .modal-overlay:target {
         display: flex;
       }
@@ -144,6 +141,7 @@
       <li><a href="../index.html">Home</a></li>
       <li><a class="current_file" href="#">Activities</a></li>
       <li><a href="form.html">Form</a></li>
+      <li><a href="LabExam.html">Lab Exam</a></li>
     </ul>
 
     <div class="header-container">
@@ -155,112 +153,599 @@
       <div class="card">
         <iframe src="act1.html"></iframe>
         <h3>Prelim Act 1: Heading</h3>
-        <a href="act1.html" class="view-link">Launch</a>
+        <a href="#act1" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act2.html"></iframe>
-        <h3>Prelim Act 2: Paragraph</h3>
-        <a href="act2.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Paragraph</h3>
+        <a href="#act2" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act3.html"></iframe>
-        <h3>Prelim Act 3: LineBreak</h3>
-        <a href="act3.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: LineBreak</h3>
+        <a href="#act3" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act4.html"></iframe>
-        <h3>Prelim Act 4: Center Content</h3>
-        <a href="act4.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Center Content</h3>
+        <a href="#act4" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act5.html"></iframe>
-        <h3>Prelim Act 5: Horizontal Line</h3>
-        <a href="act5.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Horizontal Line</h3>
+        <a href="#act5" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act6.html"></iframe>
-        <h3>Prelim Act 6: Attributes</h3>
-        <a href="act6.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Attributes</h3>
+        <a href="#act6" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act7.html"></iframe>
-        <h3>Prelim Act 7: Text Format</h3>
-        <a href="act7.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Text Format</h3>
+        <a href="#act7" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act8.html"></iframe>
-        <h3>Prelim Act 8: Links</h3>
-        <a href="act8.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Links</h3>
+        <a href="#act8" class="view-link">Launch</a>
       </div>
       <div class="card">
         <iframe src="act9.html"></iframe>
-        <h3>Prelim Act 9: Fav Website</h3>
-        <a href="act9.html" class="view-link">Launch</a>
+        <h3>Prelim Act 1: Fav Website</h3>
+        <a href="#act9" class="view-link">Launch</a>
+      </div>
+      <!-- Midterm -->
+      <div class="card">
+        <iframe src="./Act-1-FontSize.html"></iframe>
+        <h3>Mid Term: Act 1 : Font Size</h3>
+        <a href="#mact1" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-2-FontFace.html"></iframe>
+        <h3>Mid Term: Act 1 : Font Face</h3>
+        <a href="#mact2" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-3-ColorName.html"></iframe>
+        <h3>Mid Term: Act 1 : Color Name</h3>
+        <a href="#mact3" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-4-ColorHex.html"></iframe>
+        <h3>Mid Term: Act 1 : Color Hex</h3>
+        <a href="#mact4" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-5-ColorDec.html"></iframe>
+        <h3>Mid Term: Act 1 : Color Dec</h3>
+        <a href="#mact5" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-6-PhraseTags.html"></iframe>
+        <h3>Mid Term: Act 1 : Phrase Tags</h3>
+        <a href="#mact6" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-7-Image.html"></iframe>
+        <h3>Mid Term: Act 1 : Image</h3>
+        <a href="#mact7" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-8-ImageWH.html"></iframe>
+        <h3>Mid Term: Act 1 : Image WH</h3>
+        <a href="#mact8" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-9-ImageBorder.html"></iframe>
+        <h3>Mid Term: Act 1 : Image Border</h3>
+        <a href="#mact9" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-10-ImageAlign.html"></iframe>
+        <h3>Mid Term: Act 1 : Image Align</h3>
+        <a href="#mact10" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-11-ImageLink.html"></iframe>
+        <h3>Mid Term: Act 1 : Image Link</h3>
+        <a href="#mact11" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-12-links.html"></iframe>
+        <h3>Mid Term: Act 1 : Links</h3>
+        <a href="#mact12" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-13-Marquee.html"></iframe>
+        <h3>Mid Term: Act 1 : Marquee</h3>
+        <a href="#mact13" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-14-MarqueeBehaviour.html"></iframe>
+        <h3>Mid Term: Act 1 : Marquee Behaviour</h3>
+        <a href="#mact14" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./Act-15-MarqBgColor.html"></iframe>
+        <h3>Mid Term: Act 1 : Marquee Bg Color</h3>
+        <a href="#mact15" class="view-link">Launch</a>
       </div>
 
+      <!-- Semi -->
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 11</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./1-IDSelector.html"></iframe>
+        <h3>Semi Final: Act 1 : ID Selector</h3>
+        <a href="#s1" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 12</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./2-ClassSelector.html"></iframe>
+        <h3>Semi Final Act 1 : Class Selector</h3>
+        <a href="#s-2" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 13</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./3-ClassSpecific.html"></iframe>
+        <h3>Semi Final Act 1 : Class Specific</h3>
+        <a href="#s-3" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 14</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./4-MultipleClass.html"></iframe>
+        <h3>Semi Final Act 1 : Multiple Class</h3>
+        <a href="#s-4" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 15</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./5-GroupSelectors.html"></iframe>
+        <h3>Semi Final Act 1 : Group Selectors</h3>
+        <a href="#s-5" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 16</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./6-Comment.html"></iframe>
+        <h3>Semi Final Act 1 : Comment</h3>
+        <a href="#s-6" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 17</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./7-ExternalStyle.html"></iframe>
+        <h3>Semi Final Act 1 : External Style</h3>
+        <a href="#s-7" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 18</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./8-InternalStyle.html"></iframe>
+        <h3>Semi Final Act 1 : Internal Style</h3>
+        <a href="#s-8" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 19</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./9-InlineStyle.html"></iframe>
+        <h3>Semi Final Act 1 : Inline Style</h3>
+        <a href="#s-9" class="view-link">Launch</a>
       </div>
       <div class="card">
-        <iframe src="./pages/activities.html"></iframe>
-        <h3>Project 20</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./10-MultipleStyle.html"></iframe>
+        <h3>Semi Final Act 1 : Miltiple Style</h3>
+        <a href="#s-10" class="view-link">Launch</a>
       </div>
-      <!--  -->
       <div class="card">
-        <iframe src="../Midterm/index.html"></iframe>
-        <h3>MidExam : 1</h3>
-        <a href="#modal-view" class="view-link">Launch</a>
+        <iframe src="./11-CSSBG.html"></iframe>
+        <h3>Semi Final Act 1 : Css Bg</h3>
+        <a href="#s-11" class="view-link">Launch</a>
       </div>
-    </div>
-
-    <!-- PURE CSS MODAL -->
-    <div id="modal-view" class="modal-overlay">
+      <div class="card">
+        <iframe src="./12-TextColor.html"></iframe>
+        <h3>Semi Final Act 1 : Text Color</h3>
+        <a href="#s-12" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./13-BorderColor.html"></iframe>
+        <h3>Semi Final Act 1 : Border Color</h3>
+        <a href="#s-13" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./14-BGColor1.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Color 1</h3>
+        <a href="#s-14" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./15-BGColor2.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Color 2</h3>
+        <a href="#s-15" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./16-BGImage.html"></iframe>
+        <h3>Semi Final Act 1 : Image Align</h3>
+        <a href="#s-16" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./17-BGImageHV.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image HV</h3>
+        <a href="#s-17" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./18-BGImageNR.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image NR</h3>
+        <a href="#s-18" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./19-BGImagePos.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image Pos</h3>
+        <a href="#s-19" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./20-BGImageFixed.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image Fixed</h3>
+        <a href="#s-20" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./21-BGImageSP.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image Sp</h3>
+        <a href="#s-21" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./22-BGImageFull.html"></iframe>
+        <h3>Semi Final Act 1 : Bg Image Full</h3>
+        <a href="#s-22" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./23-CSSBorder.html"></iframe>
+        <h3>Semi Final Act 1 : Css Border</h3>
+        <a href="#s-23" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./24-Margins.html"></iframe>
+        <h3>Semi Final Act 1 : Margins</h3>
+        <a href="#s-24" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./25-MarginsSide.html"></iframe>
+        <h3>Semi Final Act 1 : Margins Side</h3>
+        <a href="#s-25" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./26-MarginSP.html"></iframe>
+        <h3>Semi Final Act 1 : Margin Sp</h3>
+        <a href="#s-26" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./27-PaddingSides.html"></iframe>
+        <h3>Semi Final Act 1 : PAdding Side</h3>
+        <a href="#s-27" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./28-CSSHW1.html"></iframe>
+        <h3>Semi Final Act 1 : Css HW 1</h3>
+        <a href="#s-28" class="view-link">Launch</a>
+      </div>
+      <div class="card">
+        <iframe src="./29-CSSHW2.html"></iframe>
+        <h3>Semi Final Act 1 : Css HW 2</h3>
+        <a href="#s-29" class="view-link">Launch</a>
+      </div>
+  
+    <!-- Prelim  -->
+    <div id="act1" class="modal-overlay">
       <div class="modal-content">
         <a href="#" class="close-btn">&times;</a>
-        <iframe src="../Midterm/index.html"></iframe>
+        <iframe src="./act1.html"></iframe>
+      </div>
+    </div>
+    <div id="act2" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act2.html"></iframe>
+      </div>
+    </div>
+    <div id="act3" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act3.html"></iframe>
+      </div>
+    </div>
+    <div id="act4" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act4.html"></iframe>
+      </div>
+    </div>
+    <div id="act5" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act5.html"></iframe>
+      </div>
+    </div>
+    <div id="act6" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act6.html"></iframe>
+      </div>
+    </div>
+    <div id="act7" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act7.html"></iframe>
+      </div>
+    </div>
+    <div id="act8" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act8.html"></iframe>
+      </div>
+    </div>
+    <div id="act9" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./act9.html"></iframe>
+      </div>
+    </div>
+    <!-- mid -->
+    <div id="mact1" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-1-FontSize.html"></iframe>
+      </div>
+    </div>
+    <div id="mact2" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-2-FontFace.html"></iframe>
+      </div>
+    </div>
+    <div id="mact3" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-3-ColorName.html"></iframe>
+      </div>
+    </div>
+    <div id="mact4" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-4-ColorHex.html"></iframe>
+      </div>
+    </div>
+    <div id="mact5" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-5-ColorDec.html"></iframe>
+      </div>
+    </div>
+    <div id="mact6" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-6-PhraseTags.html"></iframe>
+      </div>
+    </div>
+    <div id="mact7" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-7-Image.html"></iframe>
+      </div>
+    </div>
+    <div id="mact8" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-8-ImageWH.html"></iframe>
+      </div>
+    </div>
+    <div id="mact9" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-9-ImageBorder.html"></iframe>
+      </div>
+    </div>
+    <div id="mact10" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-10-ImageAlign.html"></iframe>
+      </div>
+    </div>
+    <div id="mact11" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-11-ImageLink.html"></iframe>
+      </div>
+    </div>
+    <div id="mact12" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-12-links.html"></iframe>
+      </div>
+    </div>
+    <div id="mact13" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-13"></iframe>
+      </div>
+    </div>
+    <div id="mact14" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-14-MarqueeBehaviour.html"></iframe>
+      </div>
+    </div>
+    <div id="mact15" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./Act-15-MarqBgColor.html"></iframe>
+      </div>
+    </div>
+  
+    <!-- end -->
+    <!-- semi -->
+    <div id="s-1" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./1-IDSelector.html"></iframe>
+      </div>
+    </div>
+    <div id="s-2" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./2-ClassSelector.html"></iframe>
+      </div>
+    </div>
+    <div id="s-3" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./3-ClassSpecific.html"></iframe>
+      </div>
+    </div>
+    <div id="s-4" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./4-MultipleClass.html"></iframe>
+      </div>
+    </div>
+    <div id="s-5" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./5-GroupSelectors.html"></iframe>
+      </div>
+    </div>
+    <div id="s-6" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./6-Comment.html"></iframe>
+      </div>
+    </div>
+    <div id="s-7" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./7-ExternalStyle.html"></iframe>
+      </div>
+    </div>
+    <div id="s-8" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./8-InternalStyle.html"></iframe>
+      </div>
+    </div>
+    <div id="s-9" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./9-InlineStyle.html"></iframe>
+      </div>
+    </div>
+    <div id="s-10" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./10-MultipleStyle.html"></iframe>
+      </div>
+    </div>
+    <div id="s-11" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./11-CSSBG.html"></iframe>
+      </div>
+    </div>
+    <div id="s-12" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./12-TextColor.html"></iframe>
+      </div>
+    </div>
+    <div id="s-13" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./13-BorderColor.html"></iframe>
+      </div>
+    </div>
+    <div id="s-14" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./14-BGColor1.html"></iframe>
+      </div>
+    </div>
+    <div id="s-15" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./15-BGColor2.html"></iframe>
+      </div>
+    </div>
+    <div id="s-16" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./16-BGImage.html"></iframe>
+      </div>
+    </div>
+    <div id="s-17" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./17-BGImageHV.html"></iframe>
+      </div>
+    </div>
+    <div id="s-18" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./18-BGImageNR.html"></iframe>
+      </div>
+    </div>
+    <div id="s-19" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./19-BGImagePos.html"></iframe>
+      </div>
+    </div>
+    <div id="s-20" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./20-BGImageFixed.html"></iframe>
+      </div>
+    </div>
+    <div id="s-21" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./21-BGImageSP.html"></iframe>
+      </div>
+    </div>
+    <div id="s-22" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./22-BGImageFull.html"></iframe>
+      </div>
+    </div>
+    <div id="s-23" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./23-CSSBorder.html"></iframe>
+      </div>
+    </div>
+    <div id="s-24" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./24-Margins.html"></iframe>
+      </div>
+    </div>
+    <div id="s-25" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./25-MarginsSide.html"></iframe>
+      </div>
+    </div>
+    <div id="s-26" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./26-MarginSP.html"></iframe>
+      </div>
+    </div>
+    <div id="s-27" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./27-PaddingSides.html"></iframe>
+      </div>
+    </div>
+    <div id="s-28" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./28-CSSHW1.html"></iframe>
+      </div>
+    </div>
+    <div id="s-29" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./29-CSSHW2.html"></iframe>
+      </div>
+    </div>
+    <div id="s" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./FavWebsite2.html"></iframe>
       </div>
     </div>
   </body>

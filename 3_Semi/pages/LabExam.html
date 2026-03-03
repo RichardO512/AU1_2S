@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Lab Exam</title>
     <style>
       body {
         margin: 0;
@@ -138,14 +138,49 @@
   </head>
   <body>
     <ul>
-      <li><a class="current_file" href="#">Home</a></li>
-      <li><a href="./pages/activities.html">Activities</a></li>
-      <li><a href="./pages/form.html">Form</a></li>
-      <li><a href="./pages/LabExam.html">Lab Exam</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="form.html">Form</a></li>
+      <li><a class="current_file" href="#">Lab Exam</a></li>
     </ul>
 
-    <div class="header-container">
-      <h1>Hello, welcome to my site.</h1>
+    <!--  -->
+    <!-- prelim Exam -->
+    <div class="card">
+      <iframe src="./FavWebsite2.html"></iframe>
+      <h3>Mid Term Exam: Favorite Website 2</h3>
+      <a href="#mact16" class="view-link">Launch</a>
+    </div>
+    <!--Mid term Exam -->
+    <div class="card">
+      <iframe src="../Midterm/index.html"></iframe>
+      <h3>MidExam : Calendar</h3>
+      <a href="#modal-view" class="view-link">Launch</a>
+    </div>
+
+    <div class="card">
+      <iframe src="form.html"></iframe>
+      <h3>Semi Exam : Html and Css Form</h3>
+      <a href="#form1" class="view-link">Launch</a>
+    </div>
+    <!--  -->
+    <div id="modal-view" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="../Midterm/index.html"></iframe>
+      </div>
+    </div>
+    <div id="mact16" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./FavWebsite2.html"></iframe>
+      </div>
+    </div>
+    <div id="form1" class="modal-overlay">
+      <div class="modal-content">
+        <a href="#" class="close-btn">&times;</a>
+        <iframe src="./form.html"></iframe>
+      </div>
     </div>
   </body>
 </html>
